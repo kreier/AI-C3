@@ -18,9 +18,11 @@ It does not look like any of the [2.1.2 development boards from Ai-Thinker](http
 From Aliexpress:
 
 ![Aliexpress one](docs/esp32_c3_aliexpress.jpg)
+
 source: https://ae01.alicdn.com/kf/Sf5e42e64eb7f465d8f386f8592fac7aad.jpg
 
 From Lazada:
 
 ![Lazada image](docs/esp32_c3_lazada.jpg)
+
 source: https://img.lazcdn.com/g/p/043f963ec228d53cc3c826d455e3900d.jpg_720x720q80.jpg
