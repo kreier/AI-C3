@@ -14,3 +14,14 @@ Here the offering on the official TZT 123 website:
 
 https://vi.aliexpress.com/item/1005006109704334.html
 
+## Source data from VCC-GND
+
+[Schematics files](ESP32-C3-C/ESP32-C3-C-SCH.pdf) were created in January 2022. And the first mircopython test of the Neopixel connected to pin GPIO8 is dated from November 26, 2021.
+
+## Distributor TZT or ShengYang
+
+Not sure if its different names for the same company. They work hard in Hongkong.
+
+![TZT](TZT.png)  ![Sheng Yang](ShengYang.png)
+
+See [their company video](TZT.mp4)
