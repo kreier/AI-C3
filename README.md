@@ -26,3 +26,33 @@ From Lazada:
 ![Lazada image](docs/esp32_c3_lazada.jpg)
 
 source: https://img.lazcdn.com/g/p/043f963ec228d53cc3c826d455e3900d.jpg_720x720q80.jpg
+
+## Procedure:
+
+Create 5 new files in /ports/espressif/boards/ai-c3
+
+- board.c
+- mkconfigboard.h
+- mkconfigboard.mk
+- pins.c
+- sdkconfig
+
+But for the `mkconfigboard.mk` I need a proper CREATOR_ID and CREATION_ID from https://github.com/creationid/creators 
+
+Maybe https://github.com/creationid/creators/blob/main/creations/espressif.md
+
+- 0x00C3_0002 since it is a C3 board and similar to the ESP32-C3-DevKitM-1
+
+And after that there has to be a complete description of this board with pictures and links in https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website 
+
+So much to do. First let's try to activate this USB port.
+
+Inspiration to be taken from 
+
+- https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8/
+- https://circuitpython.org/board/yd_esp32_s3_n16r8/
+- https://circuitpython.org/board/lolin_s3/ - with all descriptions provided by Wemos! Look at https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/lolin_s3
+
+All have two USB ports - the second is OTG!
+
+Done by ...
